@@ -1,19 +1,3 @@
-/**
- * ALX TEAM PROJECT
- * Authors:
-            Lynn Kamau
-            Mumbi Wangari
- * Branches:
-            mumbi
-            mwende
- * THIS IS THE MAIN.H FILE
- *
- */
-
-/**
- HEADERS
- */
-
 #ifndef MAIN_H
 #define MAIN_H
 
@@ -26,7 +10,6 @@
 
 
 /**
- * All prototypes are included here
  * struct format - match the conversion specifiers for printf
  * @id: type char pointer of the specifier i.e (l, h) for (d, i, u, o, x, X)
  * @f: type pointer to function for the conversion specifier
@@ -64,4 +47,3 @@ int _putchar(char c);
 int _printf(const char *format, ...);
 
 #endif
-
